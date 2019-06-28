@@ -1,0 +1,5 @@
+#include "ft_init_tests.h"
+#include "ft_modified_tests.h"
+#include "ft_receive_tests.h"
+#include "ft_send_tests.h"
+#include "buffer_tests.h"

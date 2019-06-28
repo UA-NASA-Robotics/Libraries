@@ -1,0 +1,9 @@
+add_executable(tests
+    mock_message.cpp
+    mock_serial.cpp
+    tests.cpp
+    )
+target_link_libraries(tests
+  fast_transfer
+  ${CONAN_LIBS}
+)
